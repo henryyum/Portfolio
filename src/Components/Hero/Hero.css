@@ -1,0 +1,115 @@
+/* Hero */
+
+.Hero h4 {
+  color: #1e88e5;
+}
+
+.Hero h1 {
+  color: #003554;
+  margin-bottom: 16px;
+}
+
+.Hero h2 {
+  color: #1e88e5;
+  margin-bottom: 16px;
+}
+
+.Hero-Img {
+  width: 300px;
+  border-radius: 50px;
+  box-shadow: 2px 2px 2px #1e88e5;
+}
+
+.Hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 200px 0;
+  margin-right: 35px;
+  gap: 30px;
+}
+
+.Hero-Left {
+  display: flex;
+  justify-content: center;
+  align-items: left;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.Hero-User-Left {
+  text-align: left;
+}
+
+.Hero-User-Left p {
+  margin-bottom: 12px;
+  max-width: 500px;
+  /* border: 1px solid blue; */
+  white-space: wrap;
+}
+
+.Hero-Social-Wrapper {
+  display: flex;
+  gap: 2px;
+  margin-bottom: 12px;
+}
+
+.Hero-Btn-Wrapper {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+
+.Hero-Btn-Wrapper button {
+  padding: 10px 25px;
+  background-color: whitesmoke;
+  border: 2px solid #1e88e5;
+  border-radius: 50px;
+  font-family: "Poppins", sans-serif;
+  transition: all 0.5s;
+}
+
+.Hero-Btn-Wrapper button:hover {
+  color: white;
+  background-color: #1e88e5;
+  cursor: pointer;
+}
+
+#Hero-Btn1 {
+  color: white;
+  background-color: #1e88e5;
+  transition: all 0.5s;
+}
+
+#Hero-Btn1:hover {
+  background-color: whitesmoke;
+  color: black;
+  cursor: pointer;
+}
+
+.image-container {
+  display: flex;
+}
+
+@media (max-width: 1000px) {
+  .Hero {
+    flex-direction: column;
+    gap: 45px;
+  }
+  .Hero-User-Left {
+    text-align: center;
+  }
+  .Hero-Left {
+    order: 2;
+    align-items: center;
+  }
+  .Hero-Social-Wrapper {
+    order: 3;
+  }
+  .Hero-Img-Wrapper {
+    order: 1;
+  }
+  .Hero-Img {
+    width: 325px;
+  }
+}

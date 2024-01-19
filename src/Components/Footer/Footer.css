@@ -1,0 +1,54 @@
+/* Footer */
+
+.Footer-Logo {
+  width: 30px;
+}
+
+.Footer-Icon {
+  width: 25px;
+  border-radius: 5px;
+  padding: 2px;
+  border: 1px solid black;
+  background-color: white;
+  transition: all 0.5s;
+}
+.Footer-Icon:hover {
+  background-color: #90caf9;
+}
+
+.Footer-Style {
+  text-decoration: underline;
+  font-weight: 600;
+}
+
+.Footer-Style a {
+  color: white;
+}
+
+.Footer {
+  color: whitesmoke;
+  padding-top: 10px;
+}
+
+.Footer ul {
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.Footer p {
+  padding: 10px;
+  font-size: 12px;
+}
+
+.Copyright {
+  border-top: 1px solid white;
+  width: 50%;
+  margin: 0 auto;
+}
+
+.Copyright p {
+  font-size: 12px;
+}

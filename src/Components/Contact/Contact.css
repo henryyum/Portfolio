@@ -1,0 +1,52 @@
+/* Contact */
+
+.Container {
+  display: flex;
+  justify-content: center;
+  margin-left: 60px;
+  align-items: center;
+  gap: 25px;
+  padding: 50px 0px;
+}
+.Contact-Section {
+  padding-top: 16px;
+}
+
+.Contact-Section h4 {
+  color: #1e88e5;
+  font-weight: 500;
+}
+
+.Contact-Section h1 {
+  color: #003554;
+}
+.contact-icon {
+  width: 25px;
+}
+.contact-right,
+.contact-left {
+  display: flex;
+  align-items: center;
+  text-align: left;
+  gap: 16px;
+}
+
+.contact-btn {
+  border-radius: 50px;
+  padding: 8px;
+  border: 1px solid grey;
+  box-shadow: 2px 2px 2px grey;
+  border: none;
+  background-color: white;
+}
+
+.contact-mail:hover {
+  cursor: pointer;
+}
+
+@media (max-width: 600px) {
+  .Container {
+    flex-direction: column;
+    align-items: start;
+  }
+}

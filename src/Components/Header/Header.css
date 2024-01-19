@@ -1,0 +1,79 @@
+/* Header */
+
+.Header-Logo {
+  width: 50px;
+}
+
+.Header {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 70px;
+  padding: 25px 0;
+}
+
+.Header-Nav {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  gap: 40px;
+  color: #003554;
+}
+
+.Header-Nav li {
+  list-style: none;
+  transition: all 0.5s;
+}
+
+.Header-Nav li:hover {
+  color: #1976d2;
+  cursor: pointer;
+}
+
+.header-hamburger-icon {
+  width: 25px;
+  display: none;
+}
+
+.header-hamburger-icon:hover {
+  cursor: pointer;
+}
+
+.header-hamburgerMenu {
+  width: 100vw;
+  margin: 0;
+  padding: 18px 0px;
+  box-sizing: border-box;
+  position: absolute;
+  background-color: white;
+  top: 75px;
+  left: 0;
+  right: 0;
+  z-index: 5;
+  transition: all 0.5s;
+}
+
+.header-hamburgerMenu nav {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  transition: all 0.5s;
+}
+
+.header-hamburgerMenu nav:hover {
+  cursor: pointer;
+}
+.header-hamburgerMenu nav a:hover {
+  color: #1976d2;
+}
+
+@media (max-width: 650px) {
+  .header-hamburger-icon {
+    display: block;
+  }
+  .Header-Nav {
+    display: none;
+  }
+}

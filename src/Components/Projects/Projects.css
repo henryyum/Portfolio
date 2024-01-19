@@ -1,0 +1,22 @@
+/* Projects */
+
+.Projects-Wrapper h4 {
+  font-weight: 500;
+  color: #1e88e5;
+  margin-right: 12px;
+}
+
+.Projects-Wrapper h1 {
+  color: #003554;
+}
+
+.Projects-Wrapper p {
+  margin-bottom: 30px;
+  margin-top: 20px;
+}
+
+@media (max-width: 1000px) {
+  .project-card {
+    flex-direction: column;
+  }
+}

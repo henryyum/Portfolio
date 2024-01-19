@@ -1,0 +1,147 @@
+/* About Me */
+
+.About {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 100px 21px;
+  margin: 0 auto;
+  gap: 45px;
+  text-align: left;
+}
+
+.About-Intro {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: start;
+}
+
+.About-Intro h4 {
+  color: #1e88e5;
+  margin-left: 2px;
+  font-weight: 500;
+}
+
+.About-Intro h1 {
+  color: #003554;
+}
+
+.About-Info {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+  gap: 16px;
+}
+
+.About-Social {
+  width: 30px;
+}
+
+.flex {
+  display: flex;
+}
+
+.About-Social-Wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 36px;
+  padding: 20px 0px 20px 0px;
+  /* border: 1px solid blue; */
+}
+
+.About-Social-Wrapper p {
+  font-size: 13px;
+}
+
+.About-Social-Container {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+}
+
+.About-Social-Container h4 {
+  font-weight: 600;
+  color: #003554;
+}
+
+.About-Img {
+  width: 420px;
+  height: 490px;
+  border-radius: 50px;
+  box-shadow: 2px 2px 2px #1e88e5;
+}
+
+.About-Social-Parent {
+  display: flex;
+  /* border: 1px solid blue; */
+  gap: 8px;
+  align-items: center;
+}
+
+.About-Tech-Stack {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: #003554;
+  white-space: nowrap;
+}
+
+.About-Tech {
+  display: flex;
+  align-items: center;
+}
+
+.Tech-Icon {
+  width: 40px;
+  border: 0px solid whitesmoke;
+  padding: 8px;
+  border-radius: 50px;
+  box-shadow: 5px 5px 5px whitesmoke;
+}
+
+@media (max-width: 1000px) {
+  .About {
+    flex-direction: column;
+    text-align: center;
+  }
+  .About-Img-Wrapper {
+    order: 2;
+  }
+  .About-Intro {
+    align-items: center;
+    justify-content: center;
+  }
+  .About-Info {
+    order: 1;
+    justify-content: center;
+    align-items: center;
+  }
+  .About-Tech-Stack {
+    order: 3;
+  }
+
+  .About-Img {
+    width: 300px;
+    height: 360px;
+  }
+}
+@media (max-width: 800px) {
+  .About-Social-Wrapper {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .About-Tech-Stack {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+  }
+  .About {
+    gap: 0px;
+    padding: 50px 21px;
+  }
+}
