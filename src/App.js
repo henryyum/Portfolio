@@ -36,7 +36,7 @@ export default function App() {
             projectLanguage3="CSS"
             projectBtn1="Code"
             projectBtn2="Live Demo"
-            projectBtnLink1="https://codesandbox.io/p/sandbox/travel-website-sandbox-2023-forked-6vg7vm"
+            projectBtnLink1="https://github.com/henryyum/TravelSpot"
             projectBtnLink2="https://nrdymx.csb.app/"
             image="/images/TravelWebsite.jpeg"
             imageLink="https://nrdymx.csb.app/"
@@ -50,10 +50,10 @@ export default function App() {
             projectLanguage3="CSS"
             projectBtn1="Code"
             projectBtn2="Live Demo"
-            projectBtnLink1="https://codesandbox.io/p/sandbox/ecommerce-website-forked-ggfk4y"
-            projectBtnLink2="https://ggfk4y.csb.app/"
+            projectBtnLink1="https://github.com/henryyum/E-Commerce"
+            projectBtnLink2="ecommerce-hy.netlify.app"
             image="/images/eCommerceWebsite.jpeg"
-            imageLink="https://ggfk4y.csb.app/"
+            imageLink="ecommerce-hy.netlify.app"
           />
           <ProjectCard
             projectName="Filmania"
@@ -63,10 +63,10 @@ export default function App() {
             projectLanguage3="APIs"
             projectBtn1="Code"
             projectBtn2="Live Demo"
-            projectBtnLink1="https://codesandbox.io/p/sandbox/movie-website-sandbox-forked-kh6m6d"
-            projectBtnLink2="https://tflq42.csb.app/"
+            projectBtnLink1="https://github.com/henryyum/Filmania"
+            projectBtnLink2="filmania-hy.netlify.app/"
             image="/images/MovieWebsite.jpeg"
-            imageLink="https://tflq42.csb.app/"
+            imageLink="filmania-hy.netlify.app/"
           />
         </div>
       </div>
