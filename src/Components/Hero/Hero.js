@@ -52,7 +52,7 @@ export default function Hero(props) {
       </div>
 
       <div className="Hero-Img-Wrapper">
-        <img className="Hero-Img" src="/images/img1.png" alt=""></img>
+        <img className="Hero-Img" src="/images/img1.jpeg" alt=""></img>
       </div>
     </div>
   );
