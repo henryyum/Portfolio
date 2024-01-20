@@ -51,9 +51,9 @@ export default function App() {
             projectBtn1="Code"
             projectBtn2="Live Demo"
             projectBtnLink1="https://github.com/henryyum/E-Commerce"
-            projectBtnLink2="ecommerce-hy.netlify.app"
+            projectBtnLink2="https://ecommerce-hy.netlify.app/"
             image="/images/eCommerceWebsite.jpeg"
-            imageLink="ecommerce-hy.netlify.app"
+            imageLink="https://ecommerce-hy.netlify.app/"
           />
           <ProjectCard
             projectName="Filmania"
@@ -64,9 +64,9 @@ export default function App() {
             projectBtn1="Code"
             projectBtn2="Live Demo"
             projectBtnLink1="https://github.com/henryyum/Filmania"
-            projectBtnLink2="filmania-hy.netlify.app/"
+            projectBtnLink2="https://filmania-hy.netlify.app/"
             image="/images/MovieWebsite.jpeg"
-            imageLink="filmania-hy.netlify.app/"
+            imageLink="https://filmania-hy.netlify.app/"
           />
         </div>
       </div>
