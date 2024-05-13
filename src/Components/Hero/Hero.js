@@ -3,7 +3,7 @@ import "./Hero.css";
 
 export default function Hero(props) {
   const handleDownload = () => {
-    window.location.href = "/Resume2024.pdf";
+    window.location.href = "/Resume2024-Front-EndDeveloper.pdf";
   };
 
   const handleEmail = () => {
