@@ -27,7 +27,7 @@ export default function Hero(props) {
         </div>
 
         <div className="Hero-Social-Wrapper">
-          <a href="https://www.linkedin.com/in/henry-yum-1b357b13a/">
+          <a href="https://www.linkedin.com/in/henry-yum">
             <img
               className="Social-Icon"
               src="/images/linkedin.png"
