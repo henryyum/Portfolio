@@ -36,8 +36,8 @@ export default function App() {
             projectLanguage3="CSS"
             projectBtn1="Code"
             projectBtn2="Live Demo"
-            projectBtnLink1="https://github.com/henryyum/TravelSpot"
-            projectBtnLink2="https://nrdymx.csb.app/"
+            projectBtnLink1="https://github.com/henryyum/travelspot"
+            projectBtnLink2="https://travelspot-hy.netlify.app/"
             image="/images/TravelWebsite.jpeg"
             imageLink="https://nrdymx.csb.app/"
           />
