@@ -39,7 +39,7 @@ export default function App() {
             projectBtnLink1="https://github.com/henryyum/travelspot"
             projectBtnLink2="https://travelspot-hy.netlify.app/"
             image="/images/TravelWebsite.jpeg"
-            imageLink="https://nrdymx.csb.app/"
+            imageLink="https://travelspot-hy.netlify.app/"
           />
 
           <ProjectCard
