@@ -113,3 +113,9 @@
     width: 325px;
   }
 }
+
+@media (max-width: 600px) {
+  .Hero {
+    margin-right: 0px;
+  }
+}
